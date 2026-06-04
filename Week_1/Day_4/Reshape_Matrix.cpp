@@ -2,7 +2,8 @@
 using namespace std;
 
 class solution {
-    vector<vector<int>> reshapematrix(vector<vector<int>> &mat , int r , int c) {
+    public:
+     vector<vector<int>> reshapematrix(vector<vector<int>> &mat , int r , int c) {
         int n = mat.size();
         int m = mat[0].size();
 
