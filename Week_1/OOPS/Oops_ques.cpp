@@ -83,8 +83,8 @@ int main() {
     adult.registerAccount();
 
     adult.booktype = "Kids";
-    kid.requestBook();
+    adult.requestBook();
 
     adult.booktype = "Fiction";
-    kid.requestBook();
+    adult.requestBook();
 }
